@@ -35,6 +35,19 @@ import Signup from "./pages/Signup.jsx";
 import Login from "./pages/Login.jsx";
 import VerifyEmail from "./pages/VerifyEmail";
 import WishlistPage from "./pages/Wishlist.jsx";
+import Products from "./components/Products.jsx";
+import ProductUpdates from "./components/ProductUpdates.jsx";
+import Reports from "./components/Reports.jsx";
+import Settings from "./components/Settings.jsx";
+import  Skeleton from "./components/ui/Skeleton.jsx";
+import  Slider  from "./components/ui/Slider.jsx";
+import  Switch  from "./components/ui/Switch.jsx";
+import  Table  from "./components/ui/Table.jsx";
+import  Tabs from "./components/ui/Tabs.jsx";
+import  Textarea  from "./components/ui/Textarea.jsx";
+import  ToggleGroup  from "./components/ui/Toggle-Group.jsx";
+import  Toggle  from "./components/ui/Toggle.jsx";
+import  Tooltip  from "./components/ui/Tooltip.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -85,23 +98,28 @@ function App() {
           {/* AdminLayout */}
  
           <Route path="/adminLayout"element={<AdminLayout />} />
+          <Route path="/products"element={<Products/>}/>
+          <Route path="/productupdates"element={<ProductUpdates/>}/>
+          <Route path="/reports"element={<Reports/>}/>
+          <Route path="/settings"element={<Settings/>}/>
+
+          <Route path="/skeleton"element={<Skeleton/>}/>
+          <Route path="/slider"element={<Slider/>}/>
+          <Route path="/sonner"element={<Sonner/>}/>
+          <Route path="/switch"element={<Switch/>}/>
+          <Route path="/table"element={<Table/>}/>
+          <Route path="/tabs"element={<Tabs/>}/>
+          <Route path="/textarea"element={<Textarea/>}/>
+          <Route path="/toggle-group"element={<ToggleGroup/>}/>
+          <Route path="/toggle"element={<Toggle/>}/>
+          <Route path="/tooltip"element={<Tooltip/>}/>
+          <Route path="/use-mobile"element={<Use-Mobile/>}/>
+          <Route path="/utils"element={<Utils/>}/>
 
 
 
-
-
-
-
-
-
-
-
-
-
-          <Route path="/help" element={<HelpSupport />} />
-
-
-          <Route path="/payment" element={<Payment />} />
+         <Route path="/help" element={<HelpSupport />} />
+         <Route path="/payment" element={<Payment />} />
           <Route path="/pay" element={<Pay />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/success" element={<OrderSuccess />} />
