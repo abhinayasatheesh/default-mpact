@@ -35,6 +35,22 @@ import Signup from "./pages/Signup.jsx";
 import Login from "./pages/Login.jsx";
 import VerifyEmail from "./pages/VerifyEmail";
 import WishlistPage from "./pages/Wishlist.jsx";
+import Inventory  from "./components/Inventory.jsx";
+import KnowledgeBase  from "./components/KnowledgeBase.jsx";
+import Orders from "./components/Orders.jsx";
+import PersonalSettings from "./components/PersonalSettings.jsx";
+import Menubar from "./components/ui/Menubar.jsx";
+import NavigationMenu from "./components/ui/Navigation-Menu.jsx";
+import Pagination from "./components/ui/Pagination.jsx";
+import Popover from "./components/ui/Popover.jsx";
+import Progress from "./components/ui/Progress.jsx";
+import RadioGroup from "./components/ui/Radio-Group.jsx";
+import Resizable from "./components/ui/Resizable.jsx";
+import ScrollArea from "./components/ui/Scroll-Area.jsx";
+import Select from"./components/ui/Select.jsx";
+import Separator from "./components/ui/Separator.jsx";
+import Sheet from "./components/ui/Sheet.jsx";
+import Sidebar from "./components/ui/Sidebar.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -85,10 +101,25 @@ function App() {
           {/* AdminLayout */}
  
           <Route path="/adminLayout"element={<AdminLayout />} />
+          <Route path="/inventory" element={<Inventory />} />
+          <Route path="/knowledgebase" element={<KnowledgeBase />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route path="/personalsettings" element={<PersonalSettings />} />
 
 
 
-
+          <Route path="/menubar" element={<Menubar />} />
+          <Route path="/navigation-menu" element={<NavigationMenu />} />
+          <Route path="/pagination" element={<Pagination />} />
+          <Route path="/popover" element={<Popover />} />
+          <Route path="/progress" element={<Progress />} />
+          <Route path="/radio-group" element={<RadioGroup />} />
+          <Route path="/resizable" element={<Resizable />} />
+          <Route path="/scroll-area" element={<ScrollArea />} />
+          <Route path="/select" element={<Select />} />
+          <Route path="/seperator" element={<Separator />} />
+          <Route path="/sheet" element={<Sheet />} />
+          <Route path="/slidebar" element={<Sidebar />} />
 
 
 
