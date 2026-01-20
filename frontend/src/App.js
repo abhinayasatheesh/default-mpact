@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
 import PrivateRoute from "./components/PrivateRoute";
-import { AdminLayout } from './components/AdminLayout';
+
 
 
 
@@ -35,6 +35,30 @@ import Signup from "./pages/Signup.jsx";
 import Login from "./pages/Login.jsx";
 import VerifyEmail from "./pages/VerifyEmail";
 import WishlistPage from "./pages/Wishlist.jsx";
+
+import AdminLayout from './components/AdminLayout';
+import Analytics from './components/Analytics';
+import  Categories  from './components/Categories';
+import  CMS  from './components/CMS';
+import CMSEnchanced  from './components/CMSEnhanced';
+
+import ImageWithFallback from './components/figma/ImageWithFallback';
+
+import Accordion  from './components/ui/Accordion';
+import Alert from './components/ui/Alert';
+import AlertDialog from './components/ui/AlertDialog';
+import AspectRatio  from './components/ui/AspectRatio';
+import Avatar  from './components/ui/Avatar';
+import Badge from './components/ui/Badge';
+import BreadCrumb from './components/ui/BreadCrumb';
+import Button from './components/ui/Button';
+import Calender  from './components/ui/Calender';
+import Card  from './components/ui/Card';
+import Carousel  from './components/ui/Carousel';
+import Chart  from './components/ui/Chart';
+
+
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -85,6 +109,29 @@ function App() {
           {/* AdminLayout */}
  
           <Route path="/adminLayout"element={<AdminLayout />} />
+          <Route path="/analytics"element={<Analytics />} />
+          <Route path="/categories"element={<Categories />} />
+          <Route path="/cms"element={<CMS />} />
+          <Route path="/cmsenhanced"element={<CMSEnchanced />} />
+
+          
+          <Route path="/imagewithfallback"element={<ImageWithFallback />} />
+
+
+          <Route path="/accordion"element={<Accordion />} />
+          <Route path="/alert"element={<Alert />} />
+          <Route path="/alertdialog"element={<AlertDialog />} />
+          <Route path="/aspectratio"element={<AspectRatio/>} />
+          <Route path="/avatar"element={<Avatar />} />
+          <Route path="/badge"element={<Badge />} />
+          <Route path="/breadcrumb"element={<BreadCrumb />} />
+          <Route path="/button"element={<Button />} />
+          <Route path="/calender"element={<Calender />} />
+          <Route path="/card"element={<Card />} />
+          <Route path="/carousel"element={<Carousel />} />
+          <Route path="/chart"element={<Chart />} />
+
+
 
 
 
