@@ -36,13 +36,13 @@ import Login from "./pages/Login.jsx";
 import VerifyEmail from "./pages/VerifyEmail";
 import WishlistPage from "./pages/Wishlist.jsx";
 
-import AdminLayout from './components/AdminLayout';
-import Analytics from './components/Analytics';
-import  Categories  from './components/Categories';
-import  CMS  from './components/CMS';
-import CMSEnchanced  from './components/CMSEnhanced';
+import AdminLayout from './components/AdminLayout.jsx';
+import Analytics from './components/Analytics.jsx';
+import  Categories  from './components/Categories.jsx';
+import  CMS  from './components/CMS.jsx';
+import CMSEnchanced  from './components/CMSEnhanced.jsx';
 
-import ImageWithFallback from './components/figma/ImageWithFallback';
+import ImageWithFallback from './components/figma/ImageWithFallback.jsx';
 
 import Accordion  from './components/ui/Accordion';
 import Alert from './components/ui/Alert';
@@ -56,6 +56,18 @@ import Calender  from './components/ui/Calender';
 import Card  from './components/ui/Card';
 import Carousel  from './components/ui/Carousel';
 import Chart  from './components/ui/Chart';
+import Accordion  from './components/ui/Accordion.jsx';
+import Alert from './components/ui/Alert.jsx';
+import AlertDialog from './components/ui/AlertDialog.jsx.';
+import AspectRatio  from './components/ui/AspectRatio.jsx';
+import Avatar  from './components/ui/Avatar.jsx';
+import Badge from './components/ui/Badge.jsx';
+import BreadCrumb from './components/ui/BreadCrumb.jsx';
+import Button from './components/ui/button.jsx';
+import Calender  from './components/ui/Calender.jsx';
+import Card  from './components/ui/Card.jsx';
+import Carousel  from './components/ui/Carousel.jsx';
+import Chart  from './components/ui/Chart.jsx';
 
 
 
@@ -71,14 +83,14 @@ import Checkbox  from "./components/ui/checkbox.jsx";
 import  Collapsible  from "./components/ui/collapsible.jsx";
 import  Command from "./components/ui/Command.jsx";
 import  ContextMenu  from "./components/ui/Context-Menu.jsx";
-import  Dialog  from "./components/ui/Dialog.jsx";
+import  Dialog  from "./components/ui/dialog.jsx";
 import Drawer  from "./components/ui/Drawer.jsx";
 import  DropdownMenu  from "./components/ui/DropDown-Menu.jsx";
 import  Form from "./components/ui/Form.jsx";
 import  HoverCard  from "./components/ui/Hover-Card.jsx";
 import  InputOTP  from "./components/ui/Input-Otp.jsx";
-import  Input from "./components/ui/Input.jsx";
-import Label  from "./components/ui/Label.jsx";
+import  Input from "./components/ui/input.jsx";
+import Label  from "./components/ui/label.jsx";
 
 
 
