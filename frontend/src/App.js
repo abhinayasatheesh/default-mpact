@@ -5,6 +5,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
 import PrivateRoute from "./components/PrivateRoute";
 import { AdminLayout } from './components/AdminLayout';
+import { AdsBanner } from "./components/AdsBanner.jsx";
 
 
 
@@ -85,6 +86,7 @@ function App() {
           {/* AdminLayout */}
  
           <Route path="/adminLayout"element={<AdminLayout />} />
+          <Route path="/adslayout" element={<AdsBanner/>}/>
 
 
 
