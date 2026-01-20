@@ -17,13 +17,13 @@ import {
   SheetHeader,
   SheetTitle,
 } from "./Sheet";
-import { Skeleton } from "./skeleton";
+import { Skeleton } from "./Skeleton";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "./tooltip";
+} from "./Tooltip";
 
 const SIDEBAR_COOKIE_NAME = "sidebar_state";
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
