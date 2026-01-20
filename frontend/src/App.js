@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
 import PrivateRoute from "./components/PrivateRoute";
+import { AdminLayout } from './components/AdminLayout';
 
 
 
@@ -70,6 +71,7 @@ function App() {
           <Route path="/productspec/:id" element={<ProductPage />} />
           <Route path="/checkout" element={<Checkout />} />
           {/* <Route path="/profile" element={<NewProfile />} /> */}
+       
           <Route
             path="/profile"
             element={
@@ -78,6 +80,23 @@ function App() {
               </PrivateRoute>
             }
           />
+
+
+          {/* AdminLayout */}
+ 
+          <Route path="/adminLayout"element={<AdminLayout />} />
+
+
+
+
+
+
+
+
+
+
+
+
 
           <Route path="/help" element={<HelpSupport />} />
 
@@ -89,6 +108,7 @@ function App() {
           <Route path="/trackorder" element={<Trackpage />} />
           <Route path="/review" element={<Review />} />
           <Route path="/popup" element={<SuccessPopup />} />
+          
 
 
 
