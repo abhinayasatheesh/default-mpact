@@ -36,26 +36,26 @@ import Login from "./pages/Login.jsx";
 import VerifyEmail from "./pages/VerifyEmail";
 import WishlistPage from "./pages/Wishlist.jsx";
 
-import AdminLayout from './components/AdminLayout';
-import Analytics from './components/Analytics';
-import  Categories  from './components/Categories';
-import  CMS  from './components/CMS';
-import CMSEnchanced  from './components/CMSEnhanced';
+import AdminLayout from './components/AdminLayout.jsx';
+import Analytics from './components/Analytics.jsx';
+import  Categories  from './components/Categories.jsx';
+import  CMS  from './components/CMS.jsx';
+import CMSEnchanced  from './components/CMSEnhanced.jsx';
 
-import ImageWithFallback from './components/figma/ImageWithFallback';
+import ImageWithFallback from './components/figma/ImageWithFallback.jsx';
 
-import Accordion  from './components/ui/Accordion';
-import Alert from './components/ui/Alert';
-import AlertDialog from './components/ui/AlertDialog';
-import AspectRatio  from './components/ui/AspectRatio';
-import Avatar  from './components/ui/Avatar';
-import Badge from './components/ui/Badge';
-import BreadCrumb from './components/ui/BreadCrumb';
-import Button from './components/ui/Button';
-import Calender  from './components/ui/Calender';
-import Card  from './components/ui/Card';
-import Carousel  from './components/ui/Carousel';
-import Chart  from './components/ui/Chart';
+import Accordion  from './components/ui/Accordion.jsx';
+import Alert from './components/ui/Alert.jsx';
+import AlertDialog from './components/ui/AlertDialog.jsx.';
+import AspectRatio  from './components/ui/AspectRatio.jsx';
+import Avatar  from './components/ui/Avatar.jsx';
+import Badge from './components/ui/Badge.jsx';
+import BreadCrumb from './components/ui/BreadCrumb.jsx';
+import Button from './components/ui/button.jsx';
+import Calender  from './components/ui/Calender.jsx';
+import Card  from './components/ui/Card.jsx';
+import Carousel  from './components/ui/Carousel.jsx';
+import Chart  from './components/ui/Chart.jsx';
 
 
 
