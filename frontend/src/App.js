@@ -53,11 +53,6 @@ import CMSEnchanced  from './components/CMSEnhanced.jsx';
 
 import ImageWithFallback from './components/figma/ImageWithFallback.jsx';
 
-
-
-
-
-
 import  AdsBanner  from "./components/AdsBanner.jsx";
 import  Coupons from "./components/Coupons.jsx";
 import  Customers  from "./components/Customers.jsx";
