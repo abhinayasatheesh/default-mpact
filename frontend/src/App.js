@@ -35,14 +35,14 @@ import Signup from "./pages/Signup.jsx";
 import Login from "./pages/Login.jsx";
 import VerifyEmail from "./pages/VerifyEmail";
 import WishlistPage from "./pages/Wishlist.jsx";
-import Products from "./components/Products.jsx";
-import ProductUpdates from "./components/ProductUpdates.jsx";
-import Reports from "./components/Reports.jsx";
-import Settings from "./components/Settings.jsx";
-import Inventory  from "./components/Inventory.jsx";
-import KnowledgeBase  from "./components/KnowledgeBase.jsx";
-import Orders from "./components/Orders.jsx";
-import PersonalSettings from "./components/PersonalSettings.jsx";
+import { Products } from "./components/Products.jsx";
+import { ProductUpdates } from "./components/ProductUpdates.jsx";
+import { Reports } from "./components/Reports.jsx";
+import { Settings } from "./components/Settings.jsx";
+import { Inventory } from "./components/Inventory.jsx";
+import { KnowledgeBase } from "./components/KnowledgeBase.jsx";
+import { Orders } from "./components/Orders.jsx";
+import { PersonalSettings } from "./components/PersonalSettings.jsx";
 
 
 import AdminLayout from "./components/AdminLayout.jsx";
@@ -50,17 +50,29 @@ import Analytics from "./components/Analytics.jsx";
 import  Categories  from "./components/Categories.jsx";
 import  CMS  from "./components/CMS.jsx";
 import CMSEnchanced  from "./components/CMSEnhanced.jsx";
+import { AdminLayout } from './components/AdminLayout.jsx';
+import { Analytics } from './components/Analytics.jsx';
+import { Categories } from './components/Categories.jsx';
+import CMS from './components/CMS.jsx';
+import {CMSEnhanced} from './components/CMSEnhanced.jsx';
+
+import { ImageWithFallback } from './components/figma/ImageWithFallback.jsx';
+
+
+
+
 
 import ImageWithFallback from "./components/figma/ImageWithFallback.jsx";
 
-import  AdsBanner  from "./components/AdsBanner.jsx";
-import  Coupons from "./components/Coupons.jsx";
-import  Customers  from "./components/Customers.jsx";
-import  Dashboard  from "./components/Dashboard.jsx";
-import  Inbox  from "./components/Inbox.jsx";
+import { AdsBanner } from "./components/AdsBanner.jsx";
+import { Coupons } from "./components/Coupons.jsx";
+import { Customers } from "./components/Customers.jsx";
+import { Dashboard } from "./components/Dashboard.jsx";
+import { Inbox } from "./components/Inbox.jsx";
 
 // ui path
 
+<<<<<<< HEAD
 import Checkbox from "./components/ui/Checkbox.jsx";
 
 
@@ -75,8 +87,35 @@ import Sonner from "./components/ui/Sonner.jsx";
 import Slider from "./components/ui/Slider.jsx";
 import Skeleton from "./components/ui/Skeleton.jsx";
 
+=======
+import {Checkbox} from "./components/ui/Checkbox.jsx";
+import {Collapsible} from"./components/ui/Collapsible.jsx";
+import {Command} from "./components/ui/Command.jsx";
+import {ContextMenu} from"./components/ui/Context-Menu.jsx";
+import { Dialog } from "./components/ui/Dialog.jsx";
+import {Drawer} from "./components/ui/Drawer.jsx";
+import {DropDownMenu} from"./components/ui/DropDown-Menu.jsx";
+import {Form} from "./components/ui/Form.jsx";
+import {HoverCard} from"./components/ui/Hover-Card.jsx";
+import {InputOTP} from "./components/ui/Input-Otp.jsx";
+import {Input} from"./components/ui/Input.jsx";
+import {Label} from "./components/ui/Label.jsx";
+>>>>>>> 1713bf92c3a3c70152291e29466d60c25c0d506e
 
 
+
+import { Menubar } from "./components/ui/Menubar.jsx";
+import { NavigationMenu } from "./components/ui/Navigation-Menu.jsx";
+import { Pagination } from "./components/ui/Pagination.jsx";
+import { Popover } from "./components/ui/Popover.jsx";
+import { Progress } from "./components/ui/Progress.jsx";
+import { RadioGroup } from "./components/ui/Radio-Group.jsx";
+import { ResizablePanelGroup,ResizablePanel,ResizableHandle } from "./components/ui/Resizable.jsx";
+import { ScrollArea } from "./components/ui/Scroll-Area.jsx";
+import { Select } from "./components/ui/Select.jsx";
+import { Separator } from "./components/ui/Separator.jsx";
+import { Sheet } from "./components/ui/Sheet.jsx";
+import { Sidebar } from "./components/ui/Sidebar.jsx";
 
 
 
@@ -115,7 +154,7 @@ function App() {
           <Route path="/productspec/:id" element={<ProductPage />} />
           <Route path="/checkout" element={<Checkout />} />
           {/* <Route path="/profile" element={<NewProfile />} /> */}
-       
+
           <Route
             path="/profile"
             element={
@@ -127,6 +166,7 @@ function App() {
 
 
           {/* AdminLayout */}
+<<<<<<< HEAD
  
           <Route path="/adminlayout"element={<AdminLayout />} />
 
@@ -134,38 +174,46 @@ function App() {
           <Route path="/productupdates"element={<ProductUpdates/>}/>
           <Route path="/reports"element={<Reports/>}/>
           <Route path="/settings"element={<Settings/>}/>
+=======
+>>>>>>> 1713bf92c3a3c70152291e29466d60c25c0d506e
 
-          
-         
+          <Route path="/adminLayout" element={<AdminLayout />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/productupdates" element={<ProductUpdates />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/settings" element={<Settings />} />
+
+
+
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/knowledgebase" element={<KnowledgeBase />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/personalsettings" element={<PersonalSettings />} />
-          <Route path="/analytics"element={<Analytics />} />
-          <Route path="/categories"element={<Categories />} />
-          <Route path="/cms"element={<CMS />} />
-          <Route path="/cmsenhanced"element={<CMSEnchanced />} />
-
-          
-          <Route path="/imagewithfallback"element={<ImageWithFallback />} />
+          <Route path="/analytics" element={<Analytics />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/cms" element={<CMS />} />
+          <Route path="/cmsenhanced" element={<CMSEnhanced />} />
 
 
-          
-        
-
-         <Route path="/help" element={<HelpSupport />} />
-         <Route path="/payment" element={<Payment />} />
-
-          <Route path="/adsbanner" element={<AdsBanner/>}/>
-          <Route path="/coupons" element={<Coupons/>}/>
-           <Route path="/customers" element={<Customers/>}/>
-           <Route path="/dashboard" element={<Dashboard/>}/>
-           <Route path="/inbox" element={<Inbox/>}/>
+          <Route path="/imagewithfallback" element={<ImageWithFallback />} />
 
 
-            
-       
-            
+
+
+
+          <Route path="/help" element={<HelpSupport />} />
+          <Route path="/payment" element={<Payment />} />
+
+          <Route path="/adsbanner" element={<AdsBanner />} />
+          <Route path="/coupons" element={<Coupons />} />
+          <Route path="/customers" element={<Customers />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/inbox" element={<Inbox />} />
+
+
+
+
+
 
 
 
@@ -186,7 +234,7 @@ function App() {
           <Route path="/trackorder" element={<Trackpage />} />
           <Route path="/review" element={<Review />} />
           <Route path="/popup" element={<SuccessPopup />} />
-          
+
 
 
 
@@ -200,7 +248,34 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/verify-email" element={<VerifyEmail />} />
-          <Route path="/wishlist" element={<WishlistPage/>} />
+          <Route path="/wishlist" element={<WishlistPage />} />
+
+          <Route path="/menubar" element={<Menubar />} />
+          <Route path="navigation-menu" element={<NavigationMenu />} />
+          <Route path="/paginattion" element={<Pagination />} />
+          <Route path="/popover" element={<Popover />} />
+          <Route path="/progress" element={<Progress />} />
+          <Route path="/radio-group" element={<RadioGroup />} />
+          <Route path="/resizable" element={<Resizable />} />
+          <Route path="/scroll-area" element={<ScrollArea />} />
+          <Route path="/select" element={<Select />} />
+          <Route path="/separator" element={<Separator />} />
+          <Route path="/sheet" element={<Sheet />} />
+          <Route path="/sidebar" element={<Sidebar />} />
+
+
+          <Route path="/checkbox" element={<Checkbox/>}/>
+          <Route path="/collapsible" element={<Collapsible/>}/>
+          <Route path="/command" element={<Command/>}/>
+          <Route path="/context-menu" element={<ContextMenu/>}/>
+          <Route path="/dialog" element={<Dialog/>}/>
+          <Route path="/drawer" element={<Drawer/>}/>
+          <Route path="/dropdown-menu" element={<DropDown-Menu/>}/>
+          <Route path="/form" element={<Form/>}/>
+          <Route path="/hover-card" element={<HoverCard/>}/>
+          <Route path="/input-otp" element={<InputOtp/>}/>
+          <Route path="/input" element={<Input/>}/>
+          <Route path="/label" element={<Label/>}/>
 
 
           <Route path="/tooltip" element={<Tooltip/>}/>
