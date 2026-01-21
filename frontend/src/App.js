@@ -43,18 +43,7 @@ import Inventory  from "./components/Inventory.jsx";
 import KnowledgeBase  from "./components/KnowledgeBase.jsx";
 import Orders from "./components/Orders.jsx";
 import PersonalSettings from "./components/PersonalSettings.jsx";
-import Menubar from "./components/ui/Menubar.jsx";
-import NavigationMenu from "./components/ui/Navigation-Menu.jsx";
-import Pagination from "./components/ui/Pagination.jsx";
-import Popover from "./components/ui/Popover.jsx";
-import Progress from "./components/ui/Progress.jsx";
-import RadioGroup from "./components/ui/Radio-Group.jsx";
-import Resizable from "./components/ui/Resizable.jsx";
-import ScrollArea from "./components/ui/Scroll-Area.jsx";
-import Select from"./components/ui/select.jsx";
-import Separator from "./components/ui/Separator.jsx";
-import Sheet from "./components/ui/Sheet.jsx";
-import Sidebar from "./components/ui/Sidebar.jsx";
+
 
 import AdminLayout from './components/AdminLayout.jsx';
 import Analytics from './components/Analytics.jsx';
@@ -198,18 +187,6 @@ function App() {
 
          <Route path="/help" element={<HelpSupport />} />
          <Route path="/payment" element={<Payment />} />
-          <Route path="/menubar" element={<Menubar />} />
-          <Route path="/navigation-menu" element={<NavigationMenu />} />
-          <Route path="/pagination" element={<Pagination />} />
-          <Route path="/popover" element={<Popover />} />
-          <Route path="/progress" element={<Progress />} />
-          <Route path="/radio-group" element={<RadioGroup />} />
-          <Route path="/resizable" element={<Resizable />} />
-          <Route path="/scroll-area" element={<ScrollArea />} />
-          <Route path="/select" element={<Select />} />
-          <Route path="/seperator" element={<Separator />} />
-          <Route path="/sheet" element={<Sheet />} />
-          <Route path="/slidebar" element={<Sidebar />} />
 
           <Route path="/adsbanner" element={<AdsBanner/>}/>
           <Route path="/coupons" element={<Coupons/>}/>
