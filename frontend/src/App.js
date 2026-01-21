@@ -39,15 +39,6 @@ import Products from "./components/Products.jsx";
 import ProductUpdates from "./components/ProductUpdates.jsx";
 import Reports from "./components/Reports.jsx";
 import Settings from "./components/Settings.jsx";
-import  Skeleton from "./components/ui/Skeleton.jsx";
-import  Slider  from "./components/ui/Slider.jsx";
-import  Switch  from "./components/ui/switch.jsx";
-import  Table  from "./components/ui/Table.jsx";
-import  Tabs from "./components/ui/tabs.jsx";
-import  Textarea  from "./components/ui/textarea.jsx";
-import  ToggleGroup  from "./components/ui/Toggle-Group.jsx";
-import  Toggle  from "./components/ui/toggle.jsx";
-import  Tooltip  from "./components/ui/Tooltip.jsx";
 import Inventory  from "./components/Inventory.jsx";
 import KnowledgeBase  from "./components/KnowledgeBase.jsx";
 import Orders from "./components/Orders.jsx";
@@ -87,7 +78,7 @@ import Carousel  from './components/ui/Carousel';
 import Chart  from './components/ui/Chart';
 import Accordion  from './components/ui/Accordion.jsx';
 import Alert from './components/ui/Alert.jsx';
-import AlertDialog from './components/ui/AlertDialog.jsx.';
+import AlertDialog from './components/ui/AlertDialog.jsx';
 import AspectRatio  from './components/ui/AspectRatio.jsx';
 import Avatar  from './components/ui/Avatar.jsx';
 import Badge from './components/ui/Badge.jsx';
@@ -177,18 +168,8 @@ function App() {
           <Route path="/reports"element={<Reports/>}/>
           <Route path="/settings"element={<Settings/>}/>
 
-          <Route path="/skeleton"element={<Skeleton/>}/>
-          <Route path="/slider"element={<Slider/>}/>
-          <Route path="/sonner"element={<Sonner/>}/>
-          <Route path="/switch"element={<Switch/>}/>
-          <Route path="/table"element={<Table/>}/>
-          <Route path="/tabs"element={<Tabs/>}/>
-          <Route path="/textarea"element={<Textarea/>}/>
-          <Route path="/toggle-group"element={<ToggleGroup/>}/>
-          <Route path="/toggle"element={<Toggle/>}/>
-          <Route path="/tooltip"element={<Tooltip/>}/>
-          <Route path="/use-mobile"element={<Use-Mobile/>}/>
-          <Route path="/utils"element={<Utils/>}/>
+          
+         
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/knowledgebase" element={<KnowledgeBase />} />
           <Route path="/orders" element={<Orders />} />
