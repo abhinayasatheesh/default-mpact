@@ -45,11 +45,7 @@ import { Orders } from "./components/Orders.jsx";
 import { PersonalSettings } from "./components/PersonalSettings.jsx";
 
 
-import AdminLayout from "./components/AdminLayout.jsx";
-import Analytics from "./components/Analytics.jsx";
-import  Categories  from "./components/Categories.jsx";
-import  CMS  from "./components/CMS.jsx";
-import CMSEnchanced  from "./components/CMSEnhanced.jsx";
+
 import { AdminLayout } from './components/AdminLayout.jsx';
 import { Analytics } from './components/Analytics.jsx';
 import { Categories } from './components/Categories.jsx';
@@ -62,7 +58,6 @@ import { ImageWithFallback } from './components/figma/ImageWithFallback.jsx';
 
 
 
-import ImageWithFallback from "./components/figma/ImageWithFallback.jsx";
 
 import { AdsBanner } from "./components/AdsBanner.jsx";
 import { Coupons } from "./components/Coupons.jsx";
@@ -72,22 +67,19 @@ import { Inbox } from "./components/Inbox.jsx";
 
 // ui path
 
-<<<<<<< HEAD
-import Checkbox from "./components/ui/Checkbox.jsx";
 
+import { Tooltip} from "./components/ui/Tooltip.jsx";
+import { Toggle } from "./components/ui/Toggle.jsx";
+import {ToggleGroup} from "./components/ui/Toggle-Group.jsx";
+import {Textarea} from "./components/ui/Textarea.jsx";
+import  {Tabs}  from "./components/ui/Tabs.jsx";
+import {Table} from "./components/ui/Table.jsx";
+import {Switch} from "./components/ui/Switch.jsx";
+import { Sonner } from "./components/ui/Sonner.jsx";
 
-import Tooltip from "./components/ui/Tooltip.jsx";
-import Toogle, { Toggle } from "./components/ui/Toggle.jsx";
-import ToggleGroup from "./components/ui/Toggle-Group.jsx";
-import Textarea from "./components/ui/Textarea.jsx";
-import  Tabs  from "./components/ui/Tabs.jsx";
-import Table from "./components/ui/Table.jsx";
-import Switch from "./components/ui/Switch.jsx";
-import Sonner from "./components/ui/Sonner.jsx";
-import Slider from "./components/ui/Slider.jsx";
-import Skeleton from "./components/ui/Skeleton.jsx";
+import {Slider} from "./components/ui/Slider.jsx";
+import {Skeleton} from "./components/ui/Skeleton.jsx";
 
-=======
 import {Checkbox} from "./components/ui/Checkbox.jsx";
 import {Collapsible} from"./components/ui/Collapsible.jsx";
 import {Command} from "./components/ui/Command.jsx";
@@ -100,7 +92,8 @@ import {HoverCard} from"./components/ui/Hover-Card.jsx";
 import {InputOTP} from "./components/ui/Input-Otp.jsx";
 import {Input} from"./components/ui/Input.jsx";
 import {Label} from "./components/ui/Label.jsx";
->>>>>>> 1713bf92c3a3c70152291e29466d60c25c0d506e
+
+
 
 
 
@@ -116,6 +109,14 @@ import { Select } from "./components/ui/Select.jsx";
 import { Separator } from "./components/ui/Separator.jsx";
 import { Sheet } from "./components/ui/Sheet.jsx";
 import { Sidebar } from "./components/ui/Sidebar.jsx";
+
+
+import {Accordion} from "./components/ui/Accordion.jsx";
+import {Alert} from "./components/ui/Alert.jsx";
+import {AlertDialog} from "./components/ui/AlertDialog.jsx";
+import {AspectRatio} from "./components/ui/AspectRatio.jsx";
+import {Avatar} from "./components/ui/Avatar.jsx";
+
 
 
 
@@ -166,7 +167,6 @@ function App() {
 
 
           {/* AdminLayout */}
-<<<<<<< HEAD
  
           <Route path="/adminlayout"element={<AdminLayout />} />
 
@@ -174,8 +174,6 @@ function App() {
           <Route path="/productupdates"element={<ProductUpdates/>}/>
           <Route path="/reports"element={<Reports/>}/>
           <Route path="/settings"element={<Settings/>}/>
-=======
->>>>>>> 1713bf92c3a3c70152291e29466d60c25c0d506e
 
           <Route path="/adminLayout" element={<AdminLayout />} />
           <Route path="/products" element={<Products />} />
@@ -277,6 +275,11 @@ function App() {
           <Route path="/input" element={<Input/>}/>
           <Route path="/label" element={<Label/>}/>
 
+          <Route path="/accordion" element={<Accordion/>}/>
+          <Route path="/alert" element={<Alert/>}/>
+          <Route path="/alertdialog" element={<AlertDialog/>}/>
+          <Route path="/aspectratio" element={<AspectRatio/>}/>
+          <Route path="/avatar" element={<Avatar/>}/>
 
           <Route path="/tooltip" element={<Tooltip/>}/>
           <Route path="/toggle" element={<Toggle/>}/>
