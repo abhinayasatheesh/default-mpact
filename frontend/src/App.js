@@ -50,7 +50,7 @@ import { AdminLayout } from './components/AdminLayout.jsx';
 import { Analytics } from './components/Analytics.jsx';
 import { Categories } from './components/Categories.jsx';
 import CMS from './components/CMS.jsx';
-import {CMSEnhanced} from './components/CMSEnhanced.jsx';
+import { CMSEnhanced } from './components/CMSEnhanced.jsx';
 
 import { ImageWithFallback } from './components/figma/ImageWithFallback.jsx';
 
@@ -84,14 +84,18 @@ import {Checkbox} from "./components/ui/Checkbox.jsx";
 import {Collapsible} from"./components/ui/Collapsible.jsx";
 import {Command} from "./components/ui/Command.jsx";
 import {ContextMenu} from"./components/ui/Context-Menu.jsx";
+import { Checkbox } from "./components/ui/Checkbox.jsx";
+import { Collapsible } from "./components/ui/Collapsible.jsx";
+import { Command } from "./components/ui/Command.jsx";
+import { ContextMenu } from "./components/ui/Context-Menu.jsx";
 import { Dialog } from "./components/ui/Dialog.jsx";
-import {Drawer} from "./components/ui/Drawer.jsx";
-import {DropDownMenu} from"./components/ui/DropDown-Menu.jsx";
-import {Form} from "./components/ui/Form.jsx";
-import {HoverCard} from"./components/ui/Hover-Card.jsx";
-import {InputOTP} from "./components/ui/Input-Otp.jsx";
-import {Input} from"./components/ui/Input.jsx";
-import {Label} from "./components/ui/Label.jsx";
+import { Drawer } from "./components/ui/Drawer.jsx";
+import { DropDownMenu } from "./components/ui/DropDown-Menu.jsx";
+import { Form } from "./components/ui/Form.jsx";
+import { HoverCard } from "./components/ui/Hover-Card.jsx";
+import { InputOTP } from "./components/ui/Input-Otp.jsx";
+import { Input } from "./components/ui/Input.jsx";
+import { Label } from "./components/ui/Label.jsx";
 
 
 
@@ -103,12 +107,20 @@ import { Pagination } from "./components/ui/Pagination.jsx";
 import { Popover } from "./components/ui/Popover.jsx";
 import { Progress } from "./components/ui/Progress.jsx";
 import { RadioGroup } from "./components/ui/Radio-Group.jsx";
-import { ResizablePanelGroup,ResizablePanel,ResizableHandle } from "./components/ui/Resizable.jsx";
+import { ResizablePanelGroup, ResizablePanel, ResizableHandle } from "./components/ui/Resizable.jsx";
 import { ScrollArea } from "./components/ui/Scroll-Area.jsx";
 import { Select } from "./components/ui/Select.jsx";
 import { Separator } from "./components/ui/Separator.jsx";
 import { Sheet } from "./components/ui/Sheet.jsx";
 import { Sidebar } from "./components/ui/Sidebar.jsx";
+
+import { Badge } from "./components/ui/Badge.jsx";
+import { Breadcrumb } from "./components/ui/BreadCrumb.jsx";
+import { Button } from "./components/ui/button.jsx";
+import { Calendar } from "./components/ui/Calender.jsx";
+import { Card } from "./components/ui/Card.jsx";
+import { Carousel } from "./components/ui/Carousel.jsx";
+import { Chart } from "./components/ui/Chart.jsx";
 
 
 import {Accordion} from "./components/ui/Accordion.jsx";
@@ -262,18 +274,26 @@ function App() {
           <Route path="/sidebar" element={<Sidebar />} />
 
 
-          <Route path="/checkbox" element={<Checkbox/>}/>
-          <Route path="/collapsible" element={<Collapsible/>}/>
-          <Route path="/command" element={<Command/>}/>
-          <Route path="/context-menu" element={<ContextMenu/>}/>
-          <Route path="/dialog" element={<Dialog/>}/>
-          <Route path="/drawer" element={<Drawer/>}/>
-          <Route path="/dropdown-menu" element={<DropDown-Menu/>}/>
-          <Route path="/form" element={<Form/>}/>
-          <Route path="/hover-card" element={<HoverCard/>}/>
-          <Route path="/input-otp" element={<InputOtp/>}/>
-          <Route path="/input" element={<Input/>}/>
-          <Route path="/label" element={<Label/>}/>
+          <Route path="/checkbox" element={<Checkbox />} />
+          <Route path="/collapsible" element={<Collapsible />} />
+          <Route path="/command" element={<Command />} />
+          <Route path="/context-menu" element={<ContextMenu />} />
+          <Route path="/dialog" element={<Dialog />} />
+          <Route path="/drawer" element={<Drawer />} />
+          <Route path="/dropdown-menu" element={<DropDown-Menu />} />
+          <Route path="/form" element={<Form />} />
+          <Route path="/hover-card" element={<HoverCard />} />
+          <Route path="/input-otp" element={<InputOtp />} />
+          <Route path="/input" element={<Input />} />
+          <Route path="/label" element={<Label />} />
+
+          <Route path="/badge" element={<Badge />} />
+          <Route path="/breadcrumb" element={<Breadcrumb />} />
+          <Route path="/button" element={<Button />} />
+          <Route path="/calender" element={<Calendar />} />
+          <Route path="/card" element={<Card />} />
+          <Route path="/carousel" element={<Carousel />} />
+          <Route path="/chart" element={<Chart />} />
 
           <Route path="/accordion" element={<Accordion/>}/>
           <Route path="/alert" element={<Alert/>}/>
