@@ -66,7 +66,19 @@ import  Inbox  from "./components/Inbox.jsx";
 
 // ui path
 
-import Checkbox from "./components/ui/Checkbox.jsx"
+import Checkbox from "./components/ui/Checkbox.jsx";
+import Collapsible from"./components/ui/Collapsible.jsx";
+import Command from "./components/ui/Command.jsx";
+import ContextMenu from"./components/ui/Context-Menu.jsx";
+import  Dialog  from "./components/ui/Dialog.jsx";
+import Drawer from "./components/ui/Drawer.jsx";
+import DropDownMenu from"./components/ui/DropDown-Menu.jsx";
+import Form from "./components/ui/Form.jsx";
+import HoverCard from"./components/ui/Hover-Card.jsx";
+import InputOtp from "./components/ui/Input-Otp.jsx";
+import Input from"./components/ui/Input.jsx";
+import Label from "./components/ui/Label.jsx";
+
 
 
 
@@ -192,6 +204,20 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/verify-email" element={<VerifyEmail />} />
           <Route path="/wishlist" element={<WishlistPage/>} />
+
+
+          <Route path="/checkbox" element={<Checkbox/>}/>
+          <Route path="/collapsible" element={<Collapsible/>}/>
+          <Route path="/command" element={<Command/>}/>
+          <Route path="/context-menu" element={<ContextMenu/>}/>
+          <Route path="/dialog" element={<Dialog/>}/>
+          <Route path="/drawer" element={<Drawer/>}/>
+          <Route path="/dropdown-menu" element={<DropDownMenu/>}/>
+          <Route path="/form" element={<Form/>}/>
+          <Route path="/hover-card" element={<HoverCard/>}/>
+          <Route path="/input-otp" element={<InputOtp/>}/>
+          <Route path="/input" element={<Input/>}/>
+          <Route path="/label" element={<Label/>}/>
 
 
 
