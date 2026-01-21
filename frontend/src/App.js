@@ -58,7 +58,6 @@ import ImageWithFallback from './components/figma/ImageWithFallback.jsx';
 
 
 
-
 import  AdsBanner  from "./components/AdsBanner.jsx";
 import  Coupons from "./components/Coupons.jsx";
 import  Customers  from "./components/Customers.jsx";
@@ -66,18 +65,7 @@ import  Dashboard  from "./components/Dashboard.jsx";
 import  Inbox  from "./components/Inbox.jsx";
 
 
-import Checkbox  from "./components/ui/checkbox.jsx";
-import  Collapsible  from "./components/ui/collapsible.jsx";
-import  Command from "./components/ui/Command.jsx";
-import  ContextMenu  from "./components/ui/Context-Menu.jsx";
-import  Dialog  from "./components/ui/dialog.jsx";
-import Drawer  from "./components/ui/Drawer.jsx";
-import  DropdownMenu  from "./components/ui/DropDown-Menu.jsx";
-import  Form from "./components/ui/Form.jsx";
-import  HoverCard  from "./components/ui/Hover-Card.jsx";
-import  InputOTP  from "./components/ui/Input-Otp.jsx";
-import  Input from "./components/ui/input.jsx";
-import Label  from "./components/ui/label.jsx";
+
 
 
 
@@ -163,18 +151,7 @@ function App() {
            <Route path="/inbox" element={<Inbox/>}/>
 
 
-            <Route path="/checkbox" element={<Checkbox/>}/>
-            <Route path="/collapsible" element={<Collapsible/>}/>
-            <Route path="/command" element={<Command/>}/>
-            <Route path="/context-menu" element={<ContextMenu/>} />
-            <Route path="/dialog" element={<Dialog/>}/>
-            <Route path="/drawer" element={<Drawer/>}/>
-            <Route path="/dropdown-menu" element={<DropdownMenu/>}/>
-            <Route path="/form" element={<Form/>}/>
-            <Route path="/hover-card" element={<HoverCard/>}/>
-            <Route path="/input-otp" element={<InputOTP/>}/>
-            <Route path="/input" element={<Input/>}/>
-            <Route path="/label" element={<Label/>} />
+            
        
             
 
