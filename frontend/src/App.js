@@ -39,31 +39,11 @@ import Products from "./components/Products.jsx";
 import ProductUpdates from "./components/ProductUpdates.jsx";
 import Reports from "./components/Reports.jsx";
 import Settings from "./components/Settings.jsx";
-import  Skeleton from "./components/ui/Skeleton.jsx";
-import  Slider  from "./components/ui/Slider.jsx";
-import  Switch  from "./components/ui/switch.jsx";
-import  Table  from "./components/ui/Table.jsx";
-import  Tabs from "./components/ui/tabs.jsx";
-import  Textarea  from "./components/ui/textarea.jsx";
-import  ToggleGroup  from "./components/ui/Toggle-Group.jsx";
-import  Toggle  from "./components/ui/toggle.jsx";
-import  Tooltip  from "./components/ui/Tooltip.jsx";
 import Inventory  from "./components/Inventory.jsx";
 import KnowledgeBase  from "./components/KnowledgeBase.jsx";
 import Orders from "./components/Orders.jsx";
 import PersonalSettings from "./components/PersonalSettings.jsx";
-import Menubar from "./components/ui/Menubar.jsx";
-import NavigationMenu from "./components/ui/Navigation-Menu.jsx";
-import Pagination from "./components/ui/Pagination.jsx";
-import Popover from "./components/ui/Popover.jsx";
-import Progress from "./components/ui/Progress.jsx";
-import RadioGroup from "./components/ui/Radio-Group.jsx";
-import Resizable from "./components/ui/Resizable.jsx";
-import ScrollArea from "./components/ui/Scroll-Area.jsx";
-import Select from"./components/ui/select.jsx";
-import Separator from "./components/ui/Separator.jsx";
-import Sheet from "./components/ui/Sheet.jsx";
-import Sidebar from "./components/ui/Sidebar.jsx";
+
 
 import AdminLayout from './components/AdminLayout.jsx';
 import Analytics from './components/Analytics.jsx';
@@ -155,18 +135,8 @@ function App() {
           <Route path="/reports"element={<Reports/>}/>
           <Route path="/settings"element={<Settings/>}/>
 
-          <Route path="/skeleton"element={<Skeleton/>}/>
-          <Route path="/slider"element={<Slider/>}/>
-          <Route path="/sonner"element={<Sonner/>}/>
-          <Route path="/switch"element={<Switch/>}/>
-          <Route path="/table"element={<Table/>}/>
-          <Route path="/tabs"element={<Tabs/>}/>
-          <Route path="/textarea"element={<Textarea/>}/>
-          <Route path="/toggle-group"element={<ToggleGroup/>}/>
-          <Route path="/toggle"element={<Toggle/>}/>
-          <Route path="/tooltip"element={<Tooltip/>}/>
-          <Route path="/use-mobile"element={<Use-Mobile/>}/>
-          <Route path="/utils"element={<Utils/>}/>
+          
+         
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/knowledgebase" element={<KnowledgeBase />} />
           <Route path="/orders" element={<Orders />} />
@@ -195,18 +165,6 @@ function App() {
 
          <Route path="/help" element={<HelpSupport />} />
          <Route path="/payment" element={<Payment />} />
-          <Route path="/menubar" element={<Menubar />} />
-          <Route path="/navigation-menu" element={<NavigationMenu />} />
-          <Route path="/pagination" element={<Pagination />} />
-          <Route path="/popover" element={<Popover />} />
-          <Route path="/progress" element={<Progress />} />
-          <Route path="/radio-group" element={<RadioGroup />} />
-          <Route path="/resizable" element={<Resizable />} />
-          <Route path="/scroll-area" element={<ScrollArea />} />
-          <Route path="/select" element={<Select />} />
-          <Route path="/seperator" element={<Separator />} />
-          <Route path="/sheet" element={<Sheet />} />
-          <Route path="/slidebar" element={<Sidebar />} />
 
           <Route path="/adsbanner" element={<AdsBanner/>}/>
           <Route path="/coupons" element={<Coupons/>}/>
