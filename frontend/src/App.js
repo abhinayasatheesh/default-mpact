@@ -53,30 +53,8 @@ import CMSEnchanced  from './components/CMSEnhanced.jsx';
 
 import ImageWithFallback from './components/figma/ImageWithFallback.jsx';
 
-import Accordion  from './components/ui/Accordion';
-import Alert from './components/ui/Alert';
-import AlertDialog from './components/ui/AlertDialog';
-import AspectRatio  from './components/ui/AspectRatio';
-import Avatar  from './components/ui/Avatar';
-import Badge from './components/ui/Badge';
-import BreadCrumb from './components/ui/BreadCrumb';
-import Button from './components/ui/button';
-import Calender  from './components/ui/Calender';
-import Card  from './components/ui/Card';
-import Carousel  from './components/ui/Carousel';
-import Chart  from './components/ui/Chart';
-import Accordion  from './components/ui/Accordion.jsx';
-import Alert from './components/ui/Alert.jsx';
-import AlertDialog from './components/ui/AlertDialog.jsx';
-import AspectRatio  from './components/ui/AspectRatio.jsx';
-import Avatar  from './components/ui/Avatar.jsx';
-import Badge from './components/ui/Badge.jsx';
-import BreadCrumb from './components/ui/BreadCrumb.jsx';
-import Button from './components/ui/button.jsx';
-import Calender  from './components/ui/Calender.jsx';
-import Card  from './components/ui/Card.jsx';
-import Carousel  from './components/ui/Carousel.jsx';
-import Chart  from './components/ui/Chart.jsx';
+
+
 
 
 
@@ -172,18 +150,8 @@ function App() {
           <Route path="/imagewithfallback"element={<ImageWithFallback />} />
 
 
-          <Route path="/accordion"element={<Accordion />} />
-          <Route path="/alert"element={<Alert />} />
-          <Route path="/alertdialog"element={<AlertDialog />} />
-          <Route path="/aspectratio"element={<AspectRatio/>} />
-          <Route path="/avatar"element={<Avatar />} />
-          <Route path="/badge"element={<Badge />} />
-          <Route path="/breadcrumb"element={<BreadCrumb />} />
-          <Route path="/button"element={<Button />} />
-          <Route path="/calender"element={<Calender />} />
-          <Route path="/card"element={<Card />} />
-          <Route path="/carousel"element={<Carousel />} />
-          <Route path="/chart"element={<Chart />} />
+          
+        
 
          <Route path="/help" element={<HelpSupport />} />
          <Route path="/payment" element={<Payment />} />
