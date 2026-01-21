@@ -35,6 +35,7 @@ import Signup from "./pages/Signup.jsx";
 import Login from "./pages/Login.jsx";
 import VerifyEmail from "./pages/VerifyEmail";
 import WishlistPage from "./pages/Wishlist.jsx";
+
 import { Products } from "./components/Products.jsx";
 import { ProductUpdates } from "./components/ProductUpdates.jsx";
 import { Reports } from "./components/Reports.jsx";
