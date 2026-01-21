@@ -64,6 +64,9 @@ import  Customers  from "./components/Customers.jsx";
 import  Dashboard  from "./components/Dashboard.jsx";
 import  Inbox  from "./components/Inbox.jsx";
 
+// ui path
+
+import Checkbox from "./components/ui/Checkbox.jsx"
 
 
 
