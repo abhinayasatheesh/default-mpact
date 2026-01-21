@@ -45,19 +45,35 @@ import Orders from "./components/Orders.jsx";
 import PersonalSettings from "./components/PersonalSettings.jsx";
 
 
-import AdminLayout from './components/AdminLayout.jsx';
-import Analytics from './components/Analytics.jsx';
-import  Categories  from './components/Categories.jsx';
-import  CMS  from './components/CMS.jsx';
-import CMSEnchanced  from './components/CMSEnhanced.jsx';
+import AdminLayout from "./components/AdminLayout.jsx";
+import Analytics from "./components/Analytics.jsx";
+import  Categories  from "./components/Categories.jsx";
+import  CMS  from "./components/CMS.jsx";
+import CMSEnchanced  from "./components/CMSEnhanced.jsx";
 
-import ImageWithFallback from './components/figma/ImageWithFallback.jsx';
+import ImageWithFallback from "./components/figma/ImageWithFallback.jsx";
 
 import  AdsBanner  from "./components/AdsBanner.jsx";
 import  Coupons from "./components/Coupons.jsx";
 import  Customers  from "./components/Customers.jsx";
 import  Dashboard  from "./components/Dashboard.jsx";
 import  Inbox  from "./components/Inbox.jsx";
+
+// ui path
+
+import Checkbox from "./components/ui/Checkbox.jsx";
+
+
+import Tooltip from "./components/ui/Tooltip.jsx";
+import Toogle, { Toggle } from "./components/ui/Toggle.jsx";
+import ToggleGroup from "./components/ui/Toggle-Group.jsx";
+import Textarea from "./components/ui/Textarea.jsx";
+import  Tabs  from "./components/ui/Tabs.jsx";
+import Table from "./components/ui/Table.jsx";
+import Switch from "./components/ui/Switch.jsx";
+import Sonner from "./components/ui/Sonner.jsx";
+import Slider from "./components/ui/Slider.jsx";
+import Skeleton from "./components/ui/Skeleton.jsx";
 
 
 
@@ -112,7 +128,8 @@ function App() {
 
           {/* AdminLayout */}
  
-          <Route path="/adminLayout"element={<AdminLayout />} />
+          <Route path="/adminlayout"element={<AdminLayout />} />
+
           <Route path="/products"element={<Products/>}/>
           <Route path="/productupdates"element={<ProductUpdates/>}/>
           <Route path="/reports"element={<Reports/>}/>
@@ -184,6 +201,19 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/verify-email" element={<VerifyEmail />} />
           <Route path="/wishlist" element={<WishlistPage/>} />
+
+
+          <Route path="/tooltip" element={<Tooltip/>}/>
+          <Route path="/toggle" element={<Toggle/>}/>
+          <Route path="/toggle-group" element={<ToggleGroup/>}/>
+          <Route path="/textarea" element={<Textarea/>}/>
+          <Route path="/tabs" element={<Tabs/>}/>
+          <Route  path="/table" element={<Table/>}/>
+          <Route path="/switch" element={<Switch/>}/>
+          <Route path="/sonner" element={<Sonner/>}/>
+          <Route path="slider" element={<Slider/>}/>
+          <Route path="skeleton" element={<Skeleton/>}/>
+
 
 
 
