@@ -175,7 +175,7 @@ function App() {
           />
 
 
-          {/* AdminLayout */}
+          {/* AdminLayout */} 
  
           <Route path="/adminlayout"element={<AdminLayout />} />
 
