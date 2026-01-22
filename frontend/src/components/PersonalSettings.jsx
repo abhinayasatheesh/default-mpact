@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { User, Mail, Phone, MapPin, Camera, Save } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Label } from './ui/label';
-import { Textarea } from './ui/textarea';
+import { Button } from '../components/ui/Button';
+import { Input } from '../components/ui/Input';
+import { Label } from '../components/ui/Label';
+import { Textarea } from '../components/ui/Textarea';
 
 export function PersonalSettings() {
   const [profile, setProfile] = useState({

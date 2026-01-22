@@ -8,12 +8,12 @@ import {
   Edit,
   History,
 } from 'lucide-react';
-import { Button } from './ui/button';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
-import { Label } from './ui/label';
-import { Input } from './ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Textarea } from './ui/textarea';
+import { Button } from '../components/ui/Button';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '../components/ui/Dialog';
+import { Label } from '../components/ui/Label';
+import { Input } from '../components/ui/Input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/Select';
+import { Textarea } from '../components/ui/Textarea';
 
 const initialInventory = [
   { id: 'INV001', productName: 'Wireless Headphones', sku: 'WH-001', warehouse: 'Main Warehouse', currentStock: 0, minStock: 50, maxStock: 500, status: 'Out of Stock', lastUpdated: '2026-01-08', unitCost: 45.99 },

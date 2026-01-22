@@ -167,7 +167,7 @@ export function AdminLayout({ children, currentPage, onNavigate }) {
             </button>
 
             <h2 className="text-xl font-semibold text-white capitalize">
-              {currentPage.replace('-', ' ')}
+              {currentPage?.replace('-', ' ')}
             </h2>
 
             <div className="hidden sm:flex items-center gap-2 px-3 py-2 bg-gray-800 rounded-full">

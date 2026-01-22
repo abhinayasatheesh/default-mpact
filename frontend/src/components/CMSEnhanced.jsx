@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Plus, Edit, Trash2, MoveUp, MoveDown, Upload, X, ChevronLeft, ChevronRight, Eye, Tag } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
-import { Label } from './ui/label';
-import { Textarea } from './ui/textarea';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
-import { Switch } from './ui/switch';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import exampleImage from '../../assets/84138733411d48a8e23fe82c3916134f03d8b019.png';
+import { Button } from '../components/ui/Button';
+import { Input } from '../components/ui/Input';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '../components/ui/Dialog';
+import { Label } from '../components/ui/Label';
+import { Textarea } from '../components/ui/Textarea';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/Tabs';
+import { Switch } from '../components/ui/Switch';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/Select';
+// import exampleImage from '../assets/84138733411d48a8e23fe82c3916134f03d8b019.png';
 
 const initialBadges = [
   { id: 'PB001', name: 'NO PRESERVATIVES', backgroundColor: '#1a472a', textColor: '#4ade80', borderColor: '#22c55e', active: true },
@@ -1442,7 +1442,7 @@ export function CMSEnhanced() {
           {/* Example Image */}
           <div className="bg-[#2a2a2a] border border-yellow-400/20 rounded-lg p-4">
             <h4 className="text-white font-medium mb-2">Reference Example</h4>
-            <img src={exampleImage} alt="Badge Examples" className="rounded border border-gray-700" />
+            {/* <img src={exampleImage} alt="Badge Examples" className="rounded border border-gray-700" /> */}
           </div>
 
           {/* Badges Grid */}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Mail, Phone, MapPin } from 'lucide-react';
-import { Input } from './ui/input';
+import { Input } from '../components/ui/Input';
 
 const initialCustomers = [
   {

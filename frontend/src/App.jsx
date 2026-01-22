@@ -1,39 +1,39 @@
 
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 import { Toaster } from "react-hot-toast";
-import PrivateRoute from "./components/PrivateRoute";
+import PrivateRoute from "./components/PrivateRoute.jsx";
 
 
 
 
-import Loader from "./components/Loader";
-import Navbar from "./components/Navbar";
+import Loader from "./components/Loader.jsx";
+import Navbar from "./components/Navbar.jsx";
 
-import About from "./pages/About/About";
-import Home from "./pages/Home";
-import Product from "./pages/Product";
-import Checkout from "./pages/Checkout";
-import Faq from "./pages/faq/Faq";
-import OrderSuccess from "./pages/Ordersuccess";
-import Trackpage from "./pages/Trackpage";
-import ProductPage from "./pages/ProductSpec";
-import Cart from "./pages/Cart";
-import Payment from "./pages/Payment";
-import Review from "./pages/review";
-import Pay from "./pages/Pay";
+import About from "./pages/About/About.jsx";
+import Home from "./pages/Home.jsx";
+import Product from "./pages/Product.jsx";
+import Checkout from "./pages/Checkout.jsx";
+import Faq from "./pages/faq/Faq.jsx";
+import OrderSuccess from "./pages/Ordersuccess.jsx";
+import Trackpage from "./pages/Trackpage.jsx";
+import ProductPage from "./pages/ProductSpec.jsx";
+import Cart from "./pages/Cart.jsx";
+import Payment from "./pages/Payment.jsx";
+import Review from "./pages/review.jsx";
+import Pay from "./pages/Pay.jsx";
 import SuccessPopup from "./pages/SuccessPopup.jsx";
-import HelpSupport from "./pages/HelpSupport";
+import HelpSupport from "./pages/HelpSupport.jsx";
 import Nutrition from "./pages/blog/Nutrition.jsx"
 import Blog from "./pages/blog/Blog.jsx"
-import Profile from "./pages/profile/Profile";
-import Prfle from "./pages/profile/Prfle";
-import SeeMore from "./pages/SeeMore";
+import Profile from "./pages/profile/Profile.jsx";
+import Prfle from "./pages/profile/Prfle.jsx";
+import SeeMore from "./pages/SeeMore.jsx";
 import NewProfile from "./pages/profile/Newprofile.jsx"
 import Signup from "./pages/Signup.jsx";
 import Login from "./pages/Login.jsx";
-import VerifyEmail from "./pages/VerifyEmail";
+import VerifyEmail from "./pages/VerifyEmail.jsx";
 import WishlistPage from "./pages/Wishlist.jsx";
 
 import { Products } from "./components/Products.jsx";
@@ -81,17 +81,13 @@ import { Sonner } from "./components/ui/Sonner.jsx";
 import {Slider} from "./components/ui/Slider.jsx";
 import {Skeleton} from "./components/ui/Skeleton.jsx";
 
-import {Checkbox} from "./components/ui/Checkbox.jsx";
 import {Collapsible} from"./components/ui/Collapsible.jsx";
-import {Command} from "./components/ui/Command.jsx";
 import {ContextMenu} from"./components/ui/Context-Menu.jsx";
 import { Checkbox } from "./components/ui/Checkbox.jsx";
-import { Collapsible } from "./components/ui/Collapsible.jsx";
 import { Command } from "./components/ui/Command.jsx";
-import { ContextMenu } from "./components/ui/Context-Menu.jsx";
 import { Dialog } from "./components/ui/Dialog.jsx";
 import { Drawer } from "./components/ui/Drawer.jsx";
-import { DropDownMenu } from "./components/ui/DropDown-Menu.jsx";
+// import { DropDownMenu } from "./components/ui/DropDown-Menu.jsx";
 import { Form } from "./components/ui/Form.jsx";
 import { HoverCard } from "./components/ui/Hover-Card.jsx";
 import { InputOTP } from "./components/ui/Input-Otp.jsx";
@@ -117,11 +113,11 @@ import { Sidebar } from "./components/ui/Sidebar.jsx";
 
 import { Badge } from "./components/ui/Badge.jsx";
 import { Breadcrumb } from "./components/ui/BreadCrumb.jsx";
-import { Button } from "./components/ui/button.jsx";
+import { Button } from "./components/ui/Button.jsx";
 import { Calendar } from "./components/ui/Calender.jsx";
 import { Card } from "./components/ui/Card.jsx";
 import { Carousel } from "./components/ui/Carousel.jsx";
-import { Chart } from "./components/ui/Chart.jsx";
+import { ChartContainer } from "./components/ui/Chart.jsx";
 
 
 import {Accordion} from "./components/ui/Accordion.jsx";
@@ -163,7 +159,7 @@ function App() {
       <div className="page-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Product />} />
+          {/* <Route path="/products" element={<Product />} /> */}
           <Route path="/seeMore" element={<SeeMore />} />
           <Route path="/productspec/:id" element={<ProductPage />} />
           <Route path="/checkout" element={<Checkout />} />
@@ -267,7 +263,7 @@ function App() {
           <Route path="/popover" element={<Popover />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/radio-group" element={<RadioGroup />} />
-          <Route path="/resizable" element={<Resizable />} />
+          {/* <Route path="/resizable" element={<Resizable />} /> */}
           <Route path="/scroll-area" element={<ScrollArea />} />
           <Route path="/select" element={<Select />} />
           <Route path="/separator" element={<Separator />} />
@@ -284,7 +280,7 @@ function App() {
           <Route path="/dropdown-menu" element={<DropDown-Menu />} />
           <Route path="/form" element={<Form />} />
           <Route path="/hover-card" element={<HoverCard />} />
-          <Route path="/input-otp" element={<InputOtp />} />
+          {/* <Route path="/input-otp" element={<InputOtp />} /> */}
           <Route path="/input" element={<Input />} />
           <Route path="/label" element={<Label />} />
 
@@ -294,7 +290,7 @@ function App() {
           <Route path="/calender" element={<Calendar />} />
           <Route path="/card" element={<Card />} />
           <Route path="/carousel" element={<Carousel />} />
-          <Route path="/chart" element={<Chart />} />
+          {/* <Route path="/chart" element={<Chart />} /> */}
 
           <Route path="/accordion" element={<Accordion/>}/>
           <Route path="/alert" element={<Alert/>}/>

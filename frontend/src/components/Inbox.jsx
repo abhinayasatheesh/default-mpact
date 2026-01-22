@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Star, Trash2, Search } from 'lucide-react';
-import { Input } from './ui/input';
+import { Input } from '../components/ui/Input';
 
 const initialMessages = [
   { id: 'MSG001', from: 'John Doe', subject: 'Question about order #1234', preview: 'Hi, I have a question regarding my recent order...', date: '2026-01-08', isRead: false, isStarred: false },

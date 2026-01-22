@@ -5,10 +5,10 @@ import { Slot } from "@radix-ui/react-slot";
 import { cva } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 
-import { useIsMobile } from "./use-mobile";
+// import { useIsMobile } from "./use-mobile";
 import { cn } from "./utils";
-import { Button } from "./button";
-import { Input } from "./input";
+import { Button } from "../ui/Button";
+import { Input } from "../ui/Input";
 import { Separator } from "./Separator";
 import {
   Sheet,
@@ -210,27 +210,7 @@ function SidebarTrigger({ className, onClick, ...props }) {
 
 export {
   Sidebar,
-  SidebarContent,
-  SidebarFooter,
-  SidebarGroup,
-  SidebarGroupAction,
-  SidebarGroupContent,
-  SidebarGroupLabel,
-  SidebarHeader,
-  SidebarInput,
-  SidebarInset,
-  SidebarMenu,
-  SidebarMenuAction,
-  SidebarMenuBadge,
-  SidebarMenuButton,
-  SidebarMenuItem,
-  SidebarMenuSkeleton,
-  SidebarMenuSub,
-  SidebarMenuSubButton,
-  SidebarMenuSubItem,
   SidebarProvider,
-  SidebarRail,
-  SidebarSeparator,
   SidebarTrigger,
   useSidebar,
 };

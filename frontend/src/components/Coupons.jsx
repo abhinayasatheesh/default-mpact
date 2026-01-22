@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Plus, Edit, Trash2, Percent, Copy } from 'lucide-react';
-import { Button } from './ui/button';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
-import { Label } from './ui/label';
-import { Input } from './ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
+import { Button } from '../components/ui/Button';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '../components/ui/Dialog';
+import { Label } from '../components/ui/Label';
+import { Input } from '../components/ui/Input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/Select';
 
 const initialCoupons = [
   { id: 'CPN001', code: 'SUMMER50', discount: 50, type: 'Percentage', usageLimit: 100, used: 45, expiryDate: '2026-08-31', status: 'Active' },

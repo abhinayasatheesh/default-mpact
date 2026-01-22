@@ -1,6 +1,6 @@
 import React from 'react';
 import { TrendingUp, Users, ShoppingCart, DollarSign } from 'lucide-react';
-import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+// import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const monthlyData = [
   { month: 'Jan', revenue: 12400, orders: 240, customers: 180 },

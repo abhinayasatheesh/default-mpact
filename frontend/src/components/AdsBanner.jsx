@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Plus, Edit, Trash2, Eye, Upload, X, Clock, BarChart3 } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
-import { Label } from './ui/label';
-import { Textarea } from './ui/textarea';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Switch } from './ui/switch';
+import { Button } from '../components/ui/Button.jsx';
+import { Input } from '../components/ui/Input.jsx';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '../components/ui/Dialog.jsx';
+import { Label } from '../components/ui/Label.jsx';
+import { Textarea } from '../components/ui/Textarea.jsx';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/Select.jsx';
+import { Switch } from '../components/ui/Switch.jsx';
 
 const initialAds = [
   {

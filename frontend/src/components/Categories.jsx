@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Plus, Edit, Trash2, FolderOpen } from 'lucide-react';
-import { Button } from './ui/button';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
-import { Label } from './ui/label';
-import { Input } from './ui/input';
-import { Textarea } from './ui/textarea';
+import { Button } from '../components/ui/Button';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '../components/ui/Dialog';
+import { Label } from '../components/ui/Label';
+import { Input } from '../components/ui/Input';
+import { Textarea } from '../components/ui/Textarea';
 
 const initialCategories = [
   { id: 'CAT001', name: 'Electronics', description: 'Electronic devices and gadgets', productCount: 145, status: 'Active' },

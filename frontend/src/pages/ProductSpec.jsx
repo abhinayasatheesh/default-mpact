@@ -154,10 +154,10 @@ const ProductPage = () => {
       border: "2px solid #ffe600",
       borderRadius: 12,
       overflow: "hidden",
-      height: 52,
+      // height: 52,
       background: "#2f2f2f",
       width: "fit-content",
-      height: 62
+      // height: 62
     },
     quantityButton: {
       width: 56,
